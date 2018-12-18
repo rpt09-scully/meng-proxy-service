@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server-dev": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/rpt09-scully/meng-proxy-service/issues"
   },
-  "homepage": "https://github.com/rpt09-scully/meng-proxy-service#readme"
+  "homepage": "https://github.com/rpt09-scully/meng-proxy-service#readme",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.8"
+  }
 }
